@@ -1,57 +1,14 @@
-# Project Name
+# Learn the Python SDK for Cosmos DB with a Jupyter N++++++++++++++++++++++++++++++++++++++++++++++++++++++otebook
 
-(short, 1-3 sentenced, description of the project)
+As you probably know, [Cosmos DB](https://docs.microsoft.com/en-us/azure/cosmos-db/) is a globally distributed, multi-model database service in Azure that supports document, key-value, wide-column, and graph databases.
 
-## Features
+Cosmos DB includes support for multiple Software Development Kits for programming languages such as Python. Multiple resources already exist that help to learn to use the Python SDK: 
 
-This project framework provides the following features:
+* [Cosmos DB reference guide for the Python SDK](https://docs.microsoft.com/en-us/python/api/azure-cosmos/?view=azure-python)
+* [Cosmos DB samples with the Python SDK](https://github.com/Azure/azure-cosmos-python/blob/master/test/crud_tests.py)
 
-* Feature 1
-* Feature 2
-* ...
+As opposed to documentation or code samples, Jupyter Notebooks offer a very interesting combination of rich text for explanations and pieces of code that can be executed independently from each other, which makes it ideal to learn a new technology.
 
-## Getting Started
+Hence this repository containing a notebook that goes over the basic (and not so basic) concepts of using Cosmos DB with its Python SDK for the SQL API. You can run this repository from any system with Python 3.x, or using the free platform [Azure Notebooks](https://notebooks.azure.com/), where you have the option of importing Github repositories.
 
-### Prerequisites
-
-(ideally very short, if any)
-
-- OS
-- Library version
-- ...
-
-### Installation
-
-(ideally very short)
-
-- npm install [package name]
-- mvn install
-- ...
-
-### Quickstart
-(Add steps to get up and running quickly)
-
-1. git clone [repository clone url]
-2. cd [respository name]
-3. ...
-
-
-## Demo
-
-A demo app is included to show how to use the project.
-
-To run the demo, follow these steps:
-
-(Add steps to start up the demo)
-
-1.
-2.
-3.
-
-## Resources
-
-(Any additional resources or related projects)
-
-- Link to supporting information
-- Link to similar sample
-- ...
+You will find a requirements.txt file in this repository including all required dependencies, you can install them using the pip command `pip install -r requirements.txt`
