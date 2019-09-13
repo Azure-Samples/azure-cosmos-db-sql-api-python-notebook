@@ -1,3 +1,13 @@
+---
+page_type: sample
+languages:
+- javascript
+products:
+- azure
+description: "As you probably know, Cosmos DB is a globally distributed, multi-model database service in Azure that supports document, key-value, wide-column, and graph databases."
+urlFragment: azure-cosmos-db-sql-api-python-notebook
+---
+
 # Learn the Python SDK for Cosmos DB with a Jupyter Notebook
 
 As you probably know, [Cosmos DB](https://docs.microsoft.com/en-us/azure/cosmos-db/) is a globally distributed, multi-model database service in Azure that supports document, key-value, wide-column, and graph databases.
